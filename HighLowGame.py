@@ -91,6 +91,7 @@ class Director:
         card2 = self.card2.draw()
         guess = self.guess
         print(f"The next card picked is {card2}")
+        print()
 
         if guess.lower() == "h" and card2 > card1:
             print("Correct!")
